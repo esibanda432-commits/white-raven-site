@@ -1,0 +1,11 @@
+{
+  "name": "white-raven-root",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix white-raven-site run dev",
+    "build": "npm --prefix white-raven-site run build",
+    "preview": "npm --prefix white-raven-site run preview"
+  }
+}
