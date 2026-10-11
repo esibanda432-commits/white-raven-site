@@ -15,7 +15,7 @@ const paths: Record<PanelId, string> = {
 export default function Icon({ id }: { id: PanelId }) {
   return (
     <svg className="card-icon" viewBox="0 0 24 24" aria-hidden="true">
-      <path d={paths[id]} fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" strokeLinecap="round" />
+      <path d={paths[id]} pathLength={1} fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" strokeLinecap="round" />
     </svg>
   );
 }

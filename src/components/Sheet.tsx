@@ -50,7 +50,7 @@ export default function Sheet({ id, onClose }: { id: PanelId | null; onClose: ()
             {panel.id === 'contact' && <ContactForm />}
 
             {panel.cta && (
-              <a className="btn btn-dark" href={panel.cta.href} target={panel.cta.href.startsWith('mailto:') ? undefined : '_blank'} rel="noopener noreferrer">
+              <a className="btn btn-red" href={panel.cta.href} target={panel.cta.href.startsWith('mailto:') ? undefined : '_blank'} rel="noopener noreferrer">
                 {panel.cta.label} →
               </a>
             )}
